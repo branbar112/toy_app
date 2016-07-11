@@ -12,11 +12,15 @@
  *
  *= require_tree .
  *= require_self
- */
 
+ */
+.container{
+	background: #DBDBDB;
+
+}
 footer {
 	padding-top: 50px;
-	padding-left: 120px;
-	align:center;
+	padding-left: 400px;
+	
 
 }
