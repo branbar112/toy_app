@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+(1..100).each do |i|
+  MicroPost.create(content: 'Some Content')
+  MicroPost.new(content: 'Some Content')
+end
